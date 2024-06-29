@@ -1,0 +1,3606 @@
+
+[
+    {
+        "key": "group_65e2678c6dd01",
+        "title": "Courses",
+        "fields": [
+            {
+                "key": "field_65e2686730c06",
+                "label": "Categories",
+                "name": "",
+                "aria-label": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 1,
+                "multi_expand": 1,
+                "endpoint": 0
+            },
+            {
+                "key": "field_65e268fd30c07",
+                "label": "Region",
+                "name": "course-region",
+                "aria-label": "",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33.33",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "region",
+                "add_term": 0,
+                "save_terms": 1,
+                "load_terms": 0,
+                "return_format": "id",
+                "field_type": "select",
+                "allow_null": 1,
+                "bidirectional": 0,
+                "multiple": 0,
+                "bidirectional_target": []
+            },
+            {
+                "key": "field_65e2695330c08",
+                "label": "Access",
+                "name": "course-access",
+                "aria-label": "",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33.33",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "access",
+                "add_term": 0,
+                "save_terms": 1,
+                "load_terms": 0,
+                "return_format": "id",
+                "field_type": "select",
+                "allow_null": 1,
+                "bidirectional": 0,
+                "multiple": 0,
+                "bidirectional_target": []
+            },
+            {
+                "key": "field_65e2697c30c09",
+                "label": "Era",
+                "name": "course-era",
+                "aria-label": "",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33.33",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "era",
+                "add_term": 0,
+                "save_terms": 1,
+                "load_terms": 0,
+                "return_format": "id",
+                "field_type": "select",
+                "allow_null": 1,
+                "bidirectional": 0,
+                "multiple": 0,
+                "bidirectional_target": []
+            },
+            {
+                "key": "field_65e26a1930c0b",
+                "label": "Sections",
+                "name": "",
+                "aria-label": "",
+                "type": "accordion",
+                "instructions": "Use this menu to toggle section tabs.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 1,
+                "endpoint": 0
+            },
+            {
+                "key": "field_65e26a5330c0c",
+                "label": "Profile",
+                "name": "toggle-profile",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 1,
+                "ui_on_text": "Show",
+                "ui_off_text": "Hide",
+                "ui": 1
+            },
+            {
+                "key": "field_65e26aa830c0d",
+                "label": "Scorecard",
+                "name": "toggle-scorecard",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui_on_text": "Show",
+                "ui_off_text": "Hide",
+                "ui": 1
+            },
+            {
+                "key": "field_65e26ac530c0e",
+                "label": "Images",
+                "name": "toggle-images",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui_on_text": "Show",
+                "ui_off_text": "Hide",
+                "ui": 1
+            },
+            {
+                "key": "field_65e26aff30c0f",
+                "label": "Awards",
+                "name": "toggle-awards",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui_on_text": "Show",
+                "ui_off_text": "Hide",
+                "ui": 1
+            },
+            {
+                "key": "field_65e26b4e30c10",
+                "label": "Testimonials",
+                "name": "toggle-testimonials",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui_on_text": "Show",
+                "ui_off_text": "Hide",
+                "ui": 1
+            },
+            {
+                "key": "field_65e26b7930c11",
+                "label": "Panel Invitation",
+                "name": "toggle-panel-invitation",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui_on_text": "Show",
+                "ui_off_text": "Hide",
+                "ui": 1
+            },
+            {
+                "key": "field_65e26ba230c12",
+                "label": "Contact",
+                "name": "toggle-contact",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 1,
+                "ui_on_text": "Show",
+                "ui_off_text": "Hide",
+                "ui": 1
+            },
+            {
+                "key": "field_65e26bc030c13",
+                "label": "Notes",
+                "name": "toggle-notes",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 1,
+                "ui_on_text": "Show",
+                "ui_off_text": "Hide",
+                "ui": 1
+            },
+            {
+                "key": "field_65e26bea30c14",
+                "label": "Sections (End)",
+                "name": "",
+                "aria-label": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 1
+            },
+            {
+                "key": "field_65e26c277fb3d",
+                "label": "Profile",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e26a5330c0c",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 1
+            },
+            {
+                "key": "field_65e26d5669c57",
+                "label": "Street Address",
+                "name": "course-address-street",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65e26d9869c58",
+                "label": "City",
+                "name": "course-address-city",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65e26dbd69c59",
+                "label": "State",
+                "name": "course-address-state",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "SC",
+                "maxlength": 2,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65e26dda69c5a",
+                "label": "Zip",
+                "name": "course-address-zip",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": 5,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65e26df869c5b",
+                "label": "Google Map URL",
+                "name": "course-address-map-url",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_65e26e2069c5c",
+                "label": "Phone (Text)",
+                "name": "course-phone-text",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": 14,
+                "placeholder": "(###) ###-####",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65e26e5669c5d",
+                "label": "Phone (URL)",
+                "name": "course-phone-url",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "tel:+1-",
+                "maxlength": 19,
+                "placeholder": "(###) ###-####",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65e26e8569c5e",
+                "label": "Website (Text)",
+                "name": "course-website-text",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65e26ead69c5f",
+                "label": "Website (URL)",
+                "name": "course-website-url",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_65e26eda69c60",
+                "label": "Original Design",
+                "name": "course-design",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "Who originally designed the course?",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Add Designer",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_65e26f4b69c61",
+                        "label": "Course Designer",
+                        "name": "course-design-architect",
+                        "aria-label": "",
+                        "type": "taxonomy",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "75.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "taxonomy": "designers",
+                        "add_term": 1,
+                        "save_terms": 1,
+                        "load_terms": 0,
+                        "return_format": "object",
+                        "field_type": "select",
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "multiple": 0,
+                        "bidirectional_target": [],
+                        "parent_repeater": "field_65e26eda69c60"
+                    },
+                    {
+                        "key": "field_65e26f9d69c62",
+                        "label": "Year",
+                        "name": "course-design-year",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": 4,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_65e26eda69c60"
+                    }
+                ]
+            },
+            {
+                "key": "field_65e2700269c63",
+                "label": "Redesigns",
+                "name": "course-redesign",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "Have there been any credited redesigns?",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Add Designer",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_65e2700269c65",
+                        "label": "Course Designer",
+                        "name": "course-redesign-architect",
+                        "aria-label": "",
+                        "type": "taxonomy",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "75.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "taxonomy": "designers",
+                        "add_term": 1,
+                        "save_terms": 1,
+                        "load_terms": 0,
+                        "return_format": "object",
+                        "field_type": "select",
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "multiple": 0,
+                        "bidirectional_target": [],
+                        "parent_repeater": "field_65e2700269c63"
+                    },
+                    {
+                        "key": "field_65e2700269c66",
+                        "label": "Year",
+                        "name": "course-redesign-year",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": 4,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_65e2700269c63"
+                    }
+                ]
+            },
+            {
+                "key": "field_65e2708169c6b",
+                "label": "# of Holes",
+                "name": "course-holes",
+                "aria-label": "",
+                "type": "button_group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "18": "18",
+                    "27": "27"
+                },
+                "default_value": 18,
+                "return_format": "value",
+                "allow_null": 1,
+                "layout": "horizontal"
+            },
+            {
+                "key": "field_65e270cc69c6c",
+                "label": "Affiliated Courses",
+                "name": "course-affiliated-toggle",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "Are there any other affiliated courses in our list?",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui_on_text": "",
+                "ui_off_text": "",
+                "ui": 1
+            },
+            {
+                "key": "field_65e2716a69c6d",
+                "label": "Other Affiliated Courses",
+                "name": "course-affiliated",
+                "aria-label": "",
+                "type": "relationship",
+                "instructions": "Select the other affiliated courses from the list below.",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e270cc69c6c",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "courses"
+                ],
+                "post_status": "",
+                "taxonomy": "",
+                "filters": [
+                    "search",
+                    "taxonomy"
+                ],
+                "return_format": "object",
+                "min": "",
+                "max": "",
+                "elements": "",
+                "bidirectional": 0,
+                "bidirectional_target": []
+            },
+            {
+                "key": "field_65e271ee69c6e",
+                "label": "Course Description",
+                "name": "course-description",
+                "aria-label": "",
+                "type": "wysiwyg",
+                "instructions": "Add a course description from their website",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "basic",
+                "media_upload": 0,
+                "delay": 0
+            },
+            {
+                "key": "field_65e2723b69c6f",
+                "label": "Course Summary",
+                "name": "course-description-summary",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "Add a quick summary of the course (limit of 280 characters).",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": 280,
+                "rows": 4,
+                "placeholder": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_65e2729669c70",
+                "label": "Course Review",
+                "name": "course-review",
+                "aria-label": "",
+                "type": "wysiwyg",
+                "instructions": "A course review from the Panel (if available).",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "basic",
+                "media_upload": 0,
+                "delay": 0
+            },
+            {
+                "key": "field_65e26c9f7fb3e",
+                "label": "Scorecard",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e26aa830c0d",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_65e3e7b51fa83",
+                "label": "Nine (1)",
+                "name": "course-scorecard-nine1",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e2708169c6b",
+                            "operator": "==",
+                            "value": "18"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_65e2708169c6b",
+                            "operator": "==",
+                            "value": "27"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_65e3e7b51fa84",
+                        "label": "Name",
+                        "name": "course-scorecard-nine1-name",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
+                    },
+                    {
+                        "key": "field_65e3e7b51fa85",
+                        "label": "Holes",
+                        "name": "course-scorecard-nine1-hole",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "Add all tee boxes and yardages on each hole. Be sure to add each hole's Par data first.",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_65e3e7b51fa84",
+                                    "operator": "!=empty"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 0,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Add Tee Box",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_65e3e7b51fa86",
+                                "label": "Hole",
+                                "name": "course-scorecard-nine1-hole-name",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "20.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7b51fa85"
+                            },
+                            {
+                                "key": "field_65e3e7b51fa87",
+                                "label": "1",
+                                "name": "course-scorecard-nine1-hole-1",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7b51fa85"
+                            },
+                            {
+                                "key": "field_65e3e7b51fa88",
+                                "label": "2",
+                                "name": "course-scorecard-nine1-hole-2",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7b51fa85"
+                            },
+                            {
+                                "key": "field_65e3e7b51fa89",
+                                "label": "3",
+                                "name": "course-scorecard-nine1-hole-3",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7b51fa85"
+                            },
+                            {
+                                "key": "field_65e3e7b51fa8a",
+                                "label": "4",
+                                "name": "course-scorecard-nine1-hole-4",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7b51fa85"
+                            },
+                            {
+                                "key": "field_65e3e7b51fa8b",
+                                "label": "5",
+                                "name": "course-scorecard-nine1-hole-5",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7b51fa85"
+                            },
+                            {
+                                "key": "field_65e3e7b51fa8c",
+                                "label": "6",
+                                "name": "course-scorecard-nine1-hole-6",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7b51fa85"
+                            },
+                            {
+                                "key": "field_65e3e7b51fa8d",
+                                "label": "7",
+                                "name": "course-scorecard-nine1-hole-7",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7b51fa85"
+                            },
+                            {
+                                "key": "field_65e3e7b51fa8e",
+                                "label": "8",
+                                "name": "course-scorecard-nine1-hole-8",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7b51fa85"
+                            },
+                            {
+                                "key": "field_65e3e7b51fa8f",
+                                "label": "9",
+                                "name": "course-scorecard-nine1-hole-9",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7b51fa85"
+                            },
+                            {
+                                "key": "field_65e3e7b51fa90",
+                                "label": "Total",
+                                "name": "course-scorecard-nine1-hole-total",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 4,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7b51fa85"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_65e3e737ae7a2",
+                "label": "Nine (2)",
+                "name": "course-scorecard-nine2",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e2708169c6b",
+                            "operator": "==",
+                            "value": "18"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_65e2708169c6b",
+                            "operator": "==",
+                            "value": "27"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_65e3e737ae7a3",
+                        "label": "Name",
+                        "name": "course-scorecard-nine2-name",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
+                    },
+                    {
+                        "key": "field_65e3e737ae7a4",
+                        "label": "Holes",
+                        "name": "course-scorecard-nine3-hole",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "Add all tee boxes and yardages on each hole. Be sure to add each hole's Par data first.",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_65e3e737ae7a3",
+                                    "operator": "!=empty"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 0,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Add Tee Box",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_65e3e737ae7a5",
+                                "label": "Hole",
+                                "name": "course-scorecard-nine2-hole-name",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "20.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e737ae7a4"
+                            },
+                            {
+                                "key": "field_65e3e737ae7a6",
+                                "label": "10",
+                                "name": "course-scorecard-nine2-hole-1",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e737ae7a4"
+                            },
+                            {
+                                "key": "field_65e3e737ae7a7",
+                                "label": "11",
+                                "name": "course-scorecard-nine2-hole-2",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e737ae7a4"
+                            },
+                            {
+                                "key": "field_65e3e737ae7a8",
+                                "label": "12",
+                                "name": "course-scorecard-nine2-hole-3",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e737ae7a4"
+                            },
+                            {
+                                "key": "field_65e3e737ae7a9",
+                                "label": "13",
+                                "name": "course-scorecard-nine2-hole-4",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e737ae7a4"
+                            },
+                            {
+                                "key": "field_65e3e737ae7aa",
+                                "label": "14",
+                                "name": "course-scorecard-nine2-hole-5",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e737ae7a4"
+                            },
+                            {
+                                "key": "field_65e3e737ae7ab",
+                                "label": "15",
+                                "name": "course-scorecard-nine2-hole-6",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e737ae7a4"
+                            },
+                            {
+                                "key": "field_65e3e737ae7ac",
+                                "label": "16",
+                                "name": "course-scorecard-nine2-hole-7",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e737ae7a4"
+                            },
+                            {
+                                "key": "field_65e3e737ae7ad",
+                                "label": "17",
+                                "name": "course-scorecard-nine2-hole-8",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e737ae7a4"
+                            },
+                            {
+                                "key": "field_65e3e737ae7ae",
+                                "label": "18",
+                                "name": "course-scorecard-nine2-hole-9",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e737ae7a4"
+                            },
+                            {
+                                "key": "field_65e3e737ae7af",
+                                "label": "Total",
+                                "name": "course-scorecard-nine2-hole-total",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 4,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e737ae7a4"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_65e278b8ac9e1",
+                "label": "Nine (3)",
+                "name": "course-scorecard-nine3",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e2708169c6b",
+                            "operator": "==",
+                            "value": "27"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_65e278b8ac9e2",
+                        "label": "Name",
+                        "name": "course-scorecard-nine3-name",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
+                    },
+                    {
+                        "key": "field_65e278b8ac9e3",
+                        "label": "Holes",
+                        "name": "course-scorecard-nine3-hole",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "Add all tee boxes and yardages on each hole. Be sure to add each hole's Par data first.",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_65e278b8ac9e2",
+                                    "operator": "!=empty"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 0,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Add Tee Box",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_65e278b8ac9e4",
+                                "label": "Hole",
+                                "name": "course-scorecard-nine3-hole-name",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "20.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e278b8ac9e3"
+                            },
+                            {
+                                "key": "field_65e278b8ac9e5",
+                                "label": "19",
+                                "name": "course-scorecard-nine3-hole-1",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e278b8ac9e3"
+                            },
+                            {
+                                "key": "field_65e278b8ac9e6",
+                                "label": "20",
+                                "name": "course-scorecard-nine3-hole-2",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e278b8ac9e3"
+                            },
+                            {
+                                "key": "field_65e278b8ac9e7",
+                                "label": "21",
+                                "name": "course-scorecard-nine3-hole-3",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e278b8ac9e3"
+                            },
+                            {
+                                "key": "field_65e278b8ac9e8",
+                                "label": "22",
+                                "name": "course-scorecard-nine3-hole-4",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e278b8ac9e3"
+                            },
+                            {
+                                "key": "field_65e278b8ac9e9",
+                                "label": "23",
+                                "name": "course-scorecard-nine3-hole-5",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e278b8ac9e3"
+                            },
+                            {
+                                "key": "field_65e278b8ac9ea",
+                                "label": "24",
+                                "name": "course-scorecard-nine3-hole-6",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e278b8ac9e3"
+                            },
+                            {
+                                "key": "field_65e278b8ac9eb",
+                                "label": "25",
+                                "name": "course-scorecard-nine3-hole-7",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e278b8ac9e3"
+                            },
+                            {
+                                "key": "field_65e278b8ac9ec",
+                                "label": "26",
+                                "name": "course-scorecard-nine3-hole-8",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e278b8ac9e3"
+                            },
+                            {
+                                "key": "field_65e278b8ac9ed",
+                                "label": "27",
+                                "name": "course-scorecard-nine3-hole-9",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e278b8ac9e3"
+                            },
+                            {
+                                "key": "field_65e278b8ac9ee",
+                                "label": "Total",
+                                "name": "course-scorecard-nine3-hole-total",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "8.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 4,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e278b8ac9e3"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_65e3e7ff58726",
+                "label": "Course Combo (1)",
+                "name": "course-scorecard-combo1",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e2708169c6b",
+                            "operator": "==",
+                            "value": "18"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_65e2708169c6b",
+                            "operator": "==",
+                            "value": "27"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_65e3e7ff58727",
+                        "label": "Course Combo (1) - Name",
+                        "name": "course-scorecard-combo1-name",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
+                    },
+                    {
+                        "key": "field_65e3e7ff58728",
+                        "label": "Tee Boxes",
+                        "name": "course-scorecard-combo1-repeater",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "Include Back, Middle, and Forward tees only.",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_65e3e7ff58727",
+                                    "operator": "!=empty"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 0,
+                        "max": 3,
+                        "collapsed": "",
+                        "button_label": "Add Tee Box",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_65e3e7ff58729",
+                                "label": "Tees",
+                                "name": "course-scorecard-combo1-tees",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "40.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7ff58728"
+                            },
+                            {
+                                "key": "field_65e3e7ff5872a",
+                                "label": "Par",
+                                "name": "course-scorecard-combo1-par",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "15.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 2,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7ff58728"
+                            },
+                            {
+                                "key": "field_65e3e7ff5872b",
+                                "label": "Yardage",
+                                "name": "course-scorecard-combo1-yardage",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "15.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 4,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7ff58728"
+                            },
+                            {
+                                "key": "field_65e3e8005872c",
+                                "label": "Rating",
+                                "name": "course-scorecard-combo1-rating",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "15.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 4,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7ff58728"
+                            },
+                            {
+                                "key": "field_65e3e8005872d",
+                                "label": "Slope",
+                                "name": "course-scorecard-combo1-slope",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "15.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e7ff58728"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_65e3e81d4eb1c",
+                "label": "Course Combo (2)",
+                "name": "course-scorecard-combo2",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e2708169c6b",
+                            "operator": "==",
+                            "value": "27"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_65e3e81e4eb1d",
+                        "label": "Course Combo (2) - Name",
+                        "name": "course-scorecard-combo2",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
+                    },
+                    {
+                        "key": "field_65e3e81e4eb1e",
+                        "label": "Tee Boxes",
+                        "name": "course-scorecard-combo2-repeater",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "Include Back, Middle, and Forward tees only.",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_65e3e81e4eb1d",
+                                    "operator": "!=empty"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 0,
+                        "max": 3,
+                        "collapsed": "",
+                        "button_label": "Add Tee Box",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_65e3e81e4eb1f",
+                                "label": "Tees",
+                                "name": "course-scorecard-combo2-tees",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "40.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e81e4eb1e"
+                            },
+                            {
+                                "key": "field_65e3e81e4eb20",
+                                "label": "Par",
+                                "name": "course-scorecard-combo2-par",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "15.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 2,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e81e4eb1e"
+                            },
+                            {
+                                "key": "field_65e3e81e4eb21",
+                                "label": "Yardage",
+                                "name": "course-scorecard-combo2-yardage",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "15.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 4,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e81e4eb1e"
+                            },
+                            {
+                                "key": "field_65e3e81e4eb22",
+                                "label": "Rating",
+                                "name": "course-scorecard-combo2-rating",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "15.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 4,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e81e4eb1e"
+                            },
+                            {
+                                "key": "field_65e3e81e4eb23",
+                                "label": "Slope",
+                                "name": "course-scorecard-combo2-slope",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "15.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e3e81e4eb1e"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_65e27e285ee73",
+                "label": "Course Combo (3)",
+                "name": "course-scorecard-combo3",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e2708169c6b",
+                            "operator": "==",
+                            "value": "27"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_65e27e295ee74",
+                        "label": "Course Combo (3) - Name",
+                        "name": "course-scorecard-combo3-name",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
+                    },
+                    {
+                        "key": "field_65e27e295ee75",
+                        "label": "Tee Boxes",
+                        "name": "course-scorecard-combo3-repeater",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "Include Back, Middle, and Forward tees only.",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_65e27e295ee74",
+                                    "operator": "!=empty"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 0,
+                        "max": 3,
+                        "collapsed": "",
+                        "button_label": "Add Tee Box",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_65e27e295ee76",
+                                "label": "Tees",
+                                "name": "course-scorecard-combo3-tees",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "40.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e27e295ee75"
+                            },
+                            {
+                                "key": "field_65e27e295ee77",
+                                "label": "Par",
+                                "name": "course-scorecard-combo3-par",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "15.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 2,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e27e295ee75"
+                            },
+                            {
+                                "key": "field_65e27e295ee78",
+                                "label": "Yardage",
+                                "name": "course-scorecard-combo3-yardage",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "15.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 4,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e27e295ee75"
+                            },
+                            {
+                                "key": "field_65e27e295ee79",
+                                "label": "Rating",
+                                "name": "course-scorecard-combo3-rating",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "15.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 4,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e27e295ee75"
+                            },
+                            {
+                                "key": "field_65e27e295ee7a",
+                                "label": "Slope",
+                                "name": "course-scorecard-combo3-slope",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "15.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_65e27e295ee75"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_65e26cc97fb3f",
+                "label": "Images",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e26ac530c0e",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_65e27ea8bab4f",
+                "label": "Logo",
+                "name": "course-image-logo",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_65e27ed3bab50",
+                "label": "Featured Image",
+                "name": "course-image-featured",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "Recommended size: 1920x1080",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_65e27efabab51",
+                "label": "Hero-Primary",
+                "name": "course-image-hero-primary",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "Recommended size is: 2560x1440",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_65e27f25bab52",
+                "label": "Hero-Secondary",
+                "name": "course-image-hero-secondary",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "Recommended size is: 2560x320",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_65e27f50bab54",
+                "label": "Image Gallery",
+                "name": "course-image-gallery",
+                "aria-label": "",
+                "type": "gallery",
+                "instructions": "Recommended size is: 1920x1080",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min": "",
+                "max": "",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "insert": "append",
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_65e26cd67fb40",
+                "label": "Awards",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e26aff30c0f",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_65e27fc0fe13c",
+                "label": "Current \"Best Courses in South Carolina\" Award Winner",
+                "name": "awards-bestinsc-current",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "Is this course named to the current \"Best Courses in South Carolina\" ranking?",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui_on_text": "",
+                "ui_off_text": "",
+                "ui": 1
+            },
+            {
+                "key": "field_65e28026fe13d",
+                "label": "Current \"Best Courses You Can Play\" Award Winner",
+                "name": "awards-bestyoucanplay-current",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "Is this course named to the current \"Best Courses You Can Play\" ranking?",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui_on_text": "",
+                "ui_off_text": "",
+                "ui": 1
+            },
+            {
+                "key": "field_65e28131fe13e",
+                "label": "Best Courses in SC: Current Ranking",
+                "name": "awards-bestinsc-ranking-current",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "What is this course's current ranking?",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e27fc0fe13c",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "33.33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65e2817dfe13f",
+                "label": "Best Courses in SC: Previous Ranking",
+                "name": "awards-bestinsc-ranking-previous",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "What is this course's previous ranking?",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e27fc0fe13c",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "33.33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65e281a1fe140",
+                "label": "Best Courses in SC: New to Ranking Flag",
+                "name": "awards-bestinsc-ranking-flag",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "What is this course's previous ranking?",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e27fc0fe13c",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "33.33",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui_on_text": "Show",
+                "ui_off_text": "Hide",
+                "ui": 1
+            },
+            {
+                "key": "field_65e281d5fe141",
+                "label": "Best Courses You Can Play: Current Ranking",
+                "name": "awards-bestyoucanplay-ranking-current",
+                "aria-label": "",
+                "type": "button_group",
+                "instructions": "What is this course's current ranking?",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e28026fe13d",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "33.33",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Best in Region": "Best in Region",
+                    "Regional Winner": "Regional Winner",
+                    "Honorable Mention": "Honorable Mention"
+                },
+                "default_value": "",
+                "return_format": "value",
+                "allow_null": 1,
+                "layout": "horizontal"
+            },
+            {
+                "key": "field_65e28206fe142",
+                "label": "Best Courses You Can Play: Previous Ranking",
+                "name": "awards-bestyoucanplay-ranking-previous",
+                "aria-label": "",
+                "type": "button_group",
+                "instructions": "What is this course's previous ranking?",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e28026fe13d",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "33.33",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Best in Region": "Best in Region",
+                    "Regional Winner": "Regional Winner",
+                    "Honorable Mention": "Honorable Mention"
+                },
+                "default_value": "",
+                "return_format": "value",
+                "allow_null": 1,
+                "layout": "horizontal"
+            },
+            {
+                "key": "field_65e28237fe143",
+                "label": "Best Courses You Can Play: New to Ranking Flag",
+                "name": "awards-bestyoucanplay-ranking-flag",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "What is this course's previous ranking?",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e28026fe13d",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "33.33",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui_on_text": "Show",
+                "ui_off_text": "Hide",
+                "ui": 1
+            },
+            {
+                "key": "field_65e28261fe144",
+                "label": "Awards",
+                "name": "course-awards",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Add Award",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_65e2829ffe145",
+                        "label": "Award Name",
+                        "name": "course-awards-name",
+                        "aria-label": "",
+                        "type": "taxonomy",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "taxonomy": "category",
+                        "add_term": 0,
+                        "save_terms": 1,
+                        "load_terms": 1,
+                        "return_format": "id",
+                        "field_type": "checkbox",
+                        "bidirectional": 0,
+                        "multiple": 0,
+                        "allow_null": 0,
+                        "bidirectional_target": [],
+                        "parent_repeater": "field_65e28261fe144"
+                    },
+                    {
+                        "key": "field_65e282ebfe146",
+                        "label": "Year",
+                        "name": "course-awards-year",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": 4,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_65e28261fe144"
+                    },
+                    {
+                        "key": "field_65e28308fe147",
+                        "label": "Ranking",
+                        "name": "course-awards-ranking",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_65e28261fe144"
+                    }
+                ]
+            },
+            {
+                "key": "field_65e26ce17fb41",
+                "label": "Testimonials",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e26b4e30c10",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_65e3a7927e016",
+                "label": "Testimonials",
+                "name": "course-testimonials",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Add Quote",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_65e3a7d07e017",
+                        "label": "Quote",
+                        "name": "course-testimonials-quote",
+                        "aria-label": "",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "rows": 3,
+                        "placeholder": "",
+                        "new_lines": "",
+                        "parent_repeater": "field_65e3a7927e016"
+                    },
+                    {
+                        "key": "field_65e3a7d97e018",
+                        "label": "Source",
+                        "name": "course-testimonials-quote-source",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_65e3a7927e016"
+                    },
+                    {
+                        "key": "field_65e3a7dd7e019",
+                        "label": "Status",
+                        "name": "course-testimonials-quote-status",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 1,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1,
+                        "parent_repeater": "field_65e3a7927e016"
+                    }
+                ]
+            },
+            {
+                "key": "field_65e26cf07fb42",
+                "label": "Panel Invite",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e26b7930c11",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_65e3a8fe09491",
+                "label": "Panel Invitation Status",
+                "name": "course-invitation-status",
+                "aria-label": "",
+                "type": "button_group",
+                "instructions": "Is there an official invitation for Panel Members to play this course?",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "None": "None",
+                    "Active": "Active",
+                    "Suspended": "Suspended",
+                    "Removed": "Removed"
+                },
+                "default_value": "",
+                "return_format": "value",
+                "allow_null": 1,
+                "layout": "horizontal"
+            },
+            {
+                "key": "field_65e3a97b09492",
+                "label": "Date Updated",
+                "name": "course-invitation-status-update-date",
+                "aria-label": "",
+                "type": "date_picker",
+                "instructions": "When was this status last updated?",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "!=empty"
+                        },
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "!=",
+                            "value": "None"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "m\/d\/Y",
+                "return_format": "m\/d\/Y",
+                "first_day": 1
+            },
+            {
+                "key": "field_65e3a9de09494",
+                "label": "Update Banner",
+                "name": "course-invitation-update-flag",
+                "aria-label": "",
+                "type": "button_group",
+                "instructions": "Enable banner for New or Updated listing on course invitation profile.",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "!=empty"
+                        },
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "!=",
+                            "value": "None"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "New": "New",
+                    "Updated": "Updated"
+                },
+                "default_value": "",
+                "return_format": "value",
+                "allow_null": 1,
+                "layout": "horizontal"
+            },
+            {
+                "key": "field_65e3aa4c09496",
+                "label": "Member Fee",
+                "name": "course-invitation-member-fee",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "Is there a charge for members?",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "==",
+                            "value": "Active"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65e3aa9109497",
+                "label": "Member Notes",
+                "name": "course-invitation-member-notes",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "==",
+                            "value": "Active"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "rows": 4,
+                "placeholder": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_65e3aacc09498",
+                "label": "Guest Policy",
+                "name": "course-invitation-guest-policy",
+                "aria-label": "",
+                "type": "button_group",
+                "instructions": "How many guests can Panelists bring?",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "==",
+                            "value": "Active"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "None": "None",
+                    "1": "1",
+                    "2": "2",
+                    "3": "3"
+                },
+                "default_value": "",
+                "return_format": "value",
+                "allow_null": 1,
+                "layout": "horizontal"
+            },
+            {
+                "key": "field_65e3ab2709499",
+                "label": "Guest Fee",
+                "name": "course-invitation-guest-fee",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "How much are guest fees?",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "==",
+                            "value": "Active"
+                        },
+                        {
+                            "field": "field_65e3aacc09498",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "==",
+                            "value": "Active"
+                        },
+                        {
+                            "field": "field_65e3aacc09498",
+                            "operator": "==",
+                            "value": "2"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "==",
+                            "value": "Active"
+                        },
+                        {
+                            "field": "field_65e3aacc09498",
+                            "operator": "==",
+                            "value": "3"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "25.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65e3ab980949f",
+                "label": "Guest Notes",
+                "name": "course-invitation-guest-notes",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "==",
+                            "value": "Active"
+                        },
+                        {
+                            "field": "field_65e3aacc09498",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "==",
+                            "value": "Active"
+                        },
+                        {
+                            "field": "field_65e3aacc09498",
+                            "operator": "==",
+                            "value": "2"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "==",
+                            "value": "Active"
+                        },
+                        {
+                            "field": "field_65e3aacc09498",
+                            "operator": "==",
+                            "value": "3"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "rows": 4,
+                "placeholder": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_65e3abcf094a0",
+                "label": "Invitation Restrictions",
+                "name": "course-invitation-restrictions",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "Are there any restrictions?",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "==",
+                            "value": "Active"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "rows": 4,
+                "placeholder": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_65e3ac0e094a1",
+                "label": "Invitation Notes",
+                "name": "course-invitation-notes",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e3a8fe09491",
+                            "operator": "==",
+                            "value": "Active"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Add Note",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_65e3ac4a094a2",
+                        "label": "Note",
+                        "name": "course-invitation-notes-detail",
+                        "aria-label": "",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "rows": 3,
+                        "placeholder": "",
+                        "new_lines": "",
+                        "parent_repeater": "field_65e3ac0e094a1"
+                    },
+                    {
+                        "key": "field_65e3ac82094a3",
+                        "label": "Added By",
+                        "name": "course-invitation-notes-detail-author",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_65e3ac0e094a1"
+                    },
+                    {
+                        "key": "field_65e3acd9094a4",
+                        "label": "Date",
+                        "name": "course-invitation-notes-detail-date",
+                        "aria-label": "",
+                        "type": "date_picker",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "display_format": "m\/d\/Y",
+                        "return_format": "m\/d\/Y",
+                        "first_day": 1,
+                        "parent_repeater": "field_65e3ac0e094a1"
+                    }
+                ]
+            },
+            {
+                "key": "field_65e26d0c7fb43",
+                "label": "Contacts",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e26ba230c12",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_65e3e29c8e7e9",
+                "label": "Contact",
+                "name": "course-contact",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Add Contact",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_65e3e2f58e7ea",
+                        "label": "Name",
+                        "name": "course-contact-name",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_65e3e29c8e7e9"
+                    },
+                    {
+                        "key": "field_65e3e32e8e7eb",
+                        "label": "Title",
+                        "name": "course-contact-title",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_65e3e29c8e7e9"
+                    },
+                    {
+                        "key": "field_65e3e3598e7ec",
+                        "label": "Email",
+                        "name": "course-contact-email",
+                        "aria-label": "",
+                        "type": "email",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_65e3e29c8e7e9"
+                    },
+                    {
+                        "key": "field_65e3e37b8e7ed",
+                        "label": "Phone",
+                        "name": "course-contact-phone",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": 12,
+                        "placeholder": "###-###-####",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_65e3e29c8e7e9"
+                    }
+                ]
+            },
+            {
+                "key": "field_65e26d207fb44",
+                "label": "Notes",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_65e26bc030c13",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_65e3e3f68e7f3",
+                "label": "Notes",
+                "name": "course-notes",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Add Note",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_65e3e3f68e7f4",
+                        "label": "Note",
+                        "name": "course-notes-detail",
+                        "aria-label": "",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "rows": 3,
+                        "placeholder": "",
+                        "new_lines": "",
+                        "parent_repeater": "field_65e3e3f68e7f3"
+                    },
+                    {
+                        "key": "field_65e3e3f68e7f5",
+                        "label": "Added By",
+                        "name": "course-notes-detail-author",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_65e3e3f68e7f3"
+                    },
+                    {
+                        "key": "field_65e3e3f78e7f6",
+                        "label": "Date",
+                        "name": "course-notes-detail-date",
+                        "aria-label": "",
+                        "type": "date_picker",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "display_format": "m\/d\/Y",
+                        "return_format": "m\/d\/Y",
+                        "first_day": 1,
+                        "parent_repeater": "field_65e3e3f68e7f3"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "courses"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": "Custom fields for Courses database.",
+        "show_in_rest": 1
+    }
+]

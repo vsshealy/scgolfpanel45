@@ -1,0 +1,1947 @@
+
+[
+    {
+        "key": "group_6615f1fe2681d",
+        "title": "Rankings",
+        "fields": [
+            {
+                "key": "field_66180fc6624a8",
+                "label": "Rankings Type",
+                "name": "rankings-type",
+                "aria-label": "",
+                "type": "taxonomy",
+                "instructions": "Choose the ranking type you wish to complete.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "ranking-type",
+                "add_term": 1,
+                "save_terms": 1,
+                "load_terms": 0,
+                "return_format": "id",
+                "field_type": "radio",
+                "allow_null": 1,
+                "bidirectional": 0,
+                "multiple": 0,
+                "bidirectional_target": []
+            },
+            {
+                "key": "field_6618105d37ac7",
+                "label": "Best You Can Play",
+                "name": "rankings-bestyoucanplay",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_66180fc6624a8",
+                            "operator": ">",
+                            "value": "216"
+                        },
+                        {
+                            "field": "field_66180fc6624a8",
+                            "operator": "<",
+                            "value": "218"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_66183cad78870",
+                        "label": "Region Selections",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "accordion",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "open": 0,
+                        "multi_expand": 1,
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_66183db778872",
+                        "label": "Overall",
+                        "name": "rankings-bestyoucanplay-regions-overall-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 0,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66183e0b78873",
+                        "label": "Upstate",
+                        "name": "rankings-bestyoucanplay-regions-upstate-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 1,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66183e2c78874",
+                        "label": "Midlands",
+                        "name": "rankings-bestyoucanplay-regions-midlands-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 1,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66183e3a78875",
+                        "label": "Grand Strand",
+                        "name": "rankings-bestyoucanplay-regions-grandstrand-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 1,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66183e4a78876",
+                        "label": "Greater Charleston",
+                        "name": "rankings-bestyoucanplay-regions-charleston-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 1,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66183e5a78877",
+                        "label": "Lowcountry",
+                        "name": "rankings-bestyoucanplay-regions-lowcountry-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 1,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66183d9878871",
+                        "label": "Accordion (End)",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "accordion",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "open": 0,
+                        "multi_expand": 0,
+                        "endpoint": 1
+                    },
+                    {
+                        "key": "field_66183f6664717",
+                        "label": "Overall",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66183db778872",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 1
+                    },
+                    {
+                        "key": "field_661840cde6d5e",
+                        "label": "Best in Region Winner",
+                        "name": "rankings-bestyoucanplay-overall-bestinregion",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_661841aae6d5f",
+                        "label": "Award Winners",
+                        "name": "rankings-bestyoucanplay-overall-winners",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_661841cce6d60",
+                        "label": "Honorable Mention",
+                        "name": "rankings-bestyoucanplay-overall-honorablemention",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_66183fc064718",
+                        "label": "Upstate",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66183e0b78873",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_66184211e6d61",
+                        "label": "Best in Region",
+                        "name": "rankings-bestyoucanplay-upstate-bestinregion",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:upstate"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_66184218e6d63",
+                        "label": "Award Winners",
+                        "name": "rankings-bestyoucanplay-upstate-winners",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:upstate"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_66184216e6d62",
+                        "label": "Honorable Mention",
+                        "name": "rankings-bestyoucanplay-upstate-honorablemention",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:upstate"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_66183fd664719",
+                        "label": "Midlands",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66183e2c78874",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_661842fee6d64",
+                        "label": "Best in Region",
+                        "name": "rankings-bestyoucanplay-midlands-bestinregion",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:midlands"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_66184304e6d66",
+                        "label": "Award Winners",
+                        "name": "rankings-bestyoucanplay-midlands-winners",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:midlands"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_66184302e6d65",
+                        "label": "Honorable Mention",
+                        "name": "rankings-bestyoucanplay-midlands-honorablemention",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:midlands"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_66183fe16471a",
+                        "label": "Grand Strand",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66183e3a78875",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_6618436ce6d69",
+                        "label": "Best in Region",
+                        "name": "rankings-bestyoucanplay-grandstrand-bestinregion",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:grand-strand"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_6618436ae6d68",
+                        "label": "Award Winners",
+                        "name": "rankings-bestyoucanplay-grandstrand-winners",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:grand-strand"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_66184369e6d67",
+                        "label": "Honorable Mention",
+                        "name": "rankings-bestyoucanplay-grandstrand-honorablemention",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:grand-strand"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_66183fed6471b",
+                        "label": "Greater Charleston",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66183e4a78876",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_66184da187dee",
+                        "label": "Best in Region",
+                        "name": "rankings-bestyoucanplay-charleston-bestinregion",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:charleston"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_66184da087ded",
+                        "label": "Award Winners",
+                        "name": "rankings-bestyoucanplay-charleston-winners",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:charleston"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_66184d9e87dec",
+                        "label": "Honorable Mention",
+                        "name": "rankings-bestyoucanplay-charleston-honorablemention",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:charleston"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_6618402a6471c",
+                        "label": "Lowcountry",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66183e5a78877",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_66184e1687df1",
+                        "label": "Best in Region",
+                        "name": "rankings-bestyoucanplay-lowcountry-bestinregion",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:lowcountry"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_66184e1587df0",
+                        "label": "Award Winners",
+                        "name": "rankings-bestyoucanplay-lowcountry-winners",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:lowcountry"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    },
+                    {
+                        "key": "field_66184e1487def",
+                        "label": "Honorable Mention",
+                        "name": "rankings-bestyoucanplay-lowcountry-honorablemention",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "courses"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": [
+                            "access:public",
+                            "region:lowcountry"
+                        ],
+                        "return_format": "object",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": []
+                    }
+                ]
+            },
+            {
+                "key": "field_661810effa6de",
+                "label": "Best Courses in South Carolina",
+                "name": "rankings-bestcoursesinsc",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_66180fc6624a8",
+                            "operator": ">",
+                            "value": "217"
+                        },
+                        {
+                            "field": "field_66180fc6624a8",
+                            "operator": "<",
+                            "value": "219"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "100.00",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_66184f73adb86",
+                        "label": "Region Selections",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "accordion",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "open": 0,
+                        "multi_expand": 1,
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_66184feeadb89",
+                        "label": "Overall",
+                        "name": "rankings-bestcoursesinsc-regions-overall-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 0,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66184ffcadb8a",
+                        "label": "Upstate",
+                        "name": "rankings-bestcoursesinsc-regions-upstate-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 0,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_6618501cadb8e",
+                        "label": "Midlands",
+                        "name": "rankings-bestcoursesinsc-regions-midlands-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 0,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66185010adb8d",
+                        "label": "Grand Strand",
+                        "name": "rankings-bestcoursesinsc-regions-grandstrand-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 0,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66185008adb8c",
+                        "label": "Greater Charleston",
+                        "name": "rankings-bestcoursesinsc-regions-charleston-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 0,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66185002adb8b",
+                        "label": "Lowcountry",
+                        "name": "rankings-bestcoursesinsc-regions-lowcountry-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 0,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66184f98adb87",
+                        "label": "Era Selections",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "accordion",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "open": 0,
+                        "multi_expand": 1,
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_6618510dadb8f",
+                        "label": "Overall",
+                        "name": "rankings-bestcoursesinsc-eras-overall-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 0,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66185129adb90",
+                        "label": "Modern",
+                        "name": "rankings-bestcoursesinsc-eras-modern-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 1,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66185145adb91",
+                        "label": "Classic",
+                        "name": "rankings-bestcoursesinsc-eras-classic-toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 1,
+                        "ui_on_text": "Show",
+                        "ui_off_text": "Hide",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_66184fa4adb88",
+                        "label": "Accordion (End)",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "accordion",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "open": 0,
+                        "multi_expand": 0,
+                        "endpoint": 1
+                    },
+                    {
+                        "key": "field_661851e0376c2",
+                        "label": "State",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66184feeadb89",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 1
+                    },
+                    {
+                        "key": "field_6618540d0a4d9",
+                        "label": "Top 50 - State",
+                        "name": "rankings-bestcoursesinsc-region-overall-top50",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 50,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Add Course",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_661855a10a4de",
+                                "label": "Course Selection",
+                                "name": "rankings-bestcoursesinsc-region-overall-top50-course",
+                                "aria-label": "",
+                                "type": "post_object",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "100.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "post_type": [
+                                    "courses"
+                                ],
+                                "post_status": [
+                                    "publish"
+                                ],
+                                "taxonomy": [
+                                    "region:upstate",
+                                    "region:midlands",
+                                    "region:grand-strand",
+                                    "region:charleston",
+                                    "region:lowcountry"
+                                ],
+                                "return_format": "",
+                                "multiple": 1,
+                                "allow_null": 1,
+                                "bidirectional": 0,
+                                "ui": 1,
+                                "bidirectional_target": [],
+                                "parent_repeater": "field_6618540d0a4d9"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_6618524a376c3",
+                        "label": "Upstate Region",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66184ffcadb8a",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_661855fe0a4df",
+                        "label": "Top 10 - Upstate",
+                        "name": "rankings-bestcoursesinsc-region-upstate-top10",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 10,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Add Course",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_661855fe0a4e4",
+                                "label": "Course Selection",
+                                "name": "rankings-bestcoursesinsc-region-upstate-top10-course",
+                                "aria-label": "",
+                                "type": "post_object",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "100.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "post_type": [
+                                    "courses"
+                                ],
+                                "post_status": [
+                                    "publish"
+                                ],
+                                "taxonomy": [
+                                    "region:upstate"
+                                ],
+                                "return_format": "object",
+                                "multiple": 1,
+                                "allow_null": 1,
+                                "bidirectional": 0,
+                                "ui": 1,
+                                "bidirectional_target": [],
+                                "parent_repeater": "field_661855fe0a4df"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_6618525c376c4",
+                        "label": "Midlands Region",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_6618501cadb8e",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_661856cd0a4e5",
+                        "label": "Top 10 - Midlands",
+                        "name": "rankings-bestcoursesinsc-region-midlands-top10",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 10,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Add Course",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_661856cd0a4ea",
+                                "label": "Course Selection",
+                                "name": "rankings-bestcoursesinsc-region-midlands-top10-course",
+                                "aria-label": "",
+                                "type": "post_object",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "100.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "post_type": [
+                                    "courses"
+                                ],
+                                "post_status": [
+                                    "publish"
+                                ],
+                                "taxonomy": [
+                                    "region:midlands"
+                                ],
+                                "return_format": "object",
+                                "multiple": 1,
+                                "allow_null": 1,
+                                "bidirectional": 0,
+                                "ui": 1,
+                                "bidirectional_target": [],
+                                "parent_repeater": "field_661856cd0a4e5"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_661852cc376c5",
+                        "label": "Grand Strand Region",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66185010adb8d",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_661856fd0a4eb",
+                        "label": "Top 10 - Grand Strand",
+                        "name": "rankings-bestcoursesinsc-region-grandstrand-top10",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 10,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Add Course",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_661856fd0a4f0",
+                                "label": "Course Selection",
+                                "name": "rankings-bestcoursesinsc-region-grandstrand-top10-course",
+                                "aria-label": "",
+                                "type": "post_object",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "100.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "post_type": [
+                                    "courses"
+                                ],
+                                "post_status": [
+                                    "publish"
+                                ],
+                                "taxonomy": [
+                                    "region:grand-strand"
+                                ],
+                                "return_format": "object",
+                                "multiple": 1,
+                                "allow_null": 1,
+                                "bidirectional": 0,
+                                "ui": 1,
+                                "bidirectional_target": [],
+                                "parent_repeater": "field_661856fd0a4eb"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_661852d9376c6",
+                        "label": "Greater Charleston Region",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66185008adb8c",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_661857390a4f1",
+                        "label": "Top 10 - Greater Charleston",
+                        "name": "rankings-bestcoursesinsc-region-charleston-top10",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 10,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Add Course",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_661857390a4f6",
+                                "label": "Course Selection",
+                                "name": "rankings-bestcoursesinsc-region-charleston-top10-course",
+                                "aria-label": "",
+                                "type": "post_object",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "100.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "post_type": [
+                                    "courses"
+                                ],
+                                "post_status": [
+                                    "publish"
+                                ],
+                                "taxonomy": [
+                                    "region:charleston"
+                                ],
+                                "return_format": "object",
+                                "multiple": 1,
+                                "allow_null": 1,
+                                "bidirectional": 0,
+                                "ui": 1,
+                                "bidirectional_target": [],
+                                "parent_repeater": "field_661857390a4f1"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_661852e8376c7",
+                        "label": "Lowcountry Region",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66185002adb8b",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_6618576d0a4f7",
+                        "label": "Top 10 - Lowcountry",
+                        "name": "rankings-bestcoursesinsc-region-lowcountry-top10",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 10,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Add Course",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_6618576d0a4fc",
+                                "label": "Course Selection",
+                                "name": "rankings-bestcoursesinsc-region-lowcountry-top10-course",
+                                "aria-label": "",
+                                "type": "post_object",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "100.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "post_type": [
+                                    "courses"
+                                ],
+                                "post_status": [
+                                    "publish"
+                                ],
+                                "taxonomy": [
+                                    "region:lowcountry"
+                                ],
+                                "return_format": "object",
+                                "multiple": 1,
+                                "allow_null": 1,
+                                "bidirectional": 0,
+                                "ui": 1,
+                                "bidirectional_target": [],
+                                "parent_repeater": "field_6618576d0a4f7"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_661852f8376c8",
+                        "label": "All Eras",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_6618510dadb8f",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_661859090a4fd",
+                        "label": "Top 50 - All Eras",
+                        "name": "rankings-bestcoursesinsc-eras-overall-top50",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 50,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Add Course",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_6618590a0a502",
+                                "label": "Course Selection",
+                                "name": "rankings-bestcoursesinsc-eras-overall-top50-course",
+                                "aria-label": "",
+                                "type": "post_object",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "100.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "post_type": [
+                                    "courses"
+                                ],
+                                "post_status": [
+                                    "publish"
+                                ],
+                                "taxonomy": [
+                                    "era:modern",
+                                    "era:classic"
+                                ],
+                                "return_format": "",
+                                "multiple": 1,
+                                "allow_null": 1,
+                                "bidirectional": 0,
+                                "ui": 1,
+                                "bidirectional_target": [],
+                                "parent_repeater": "field_661859090a4fd"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_66185315376c9",
+                        "label": "Modern Era",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66185129adb90",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_661859740a50f",
+                        "label": "Top 50 - Modern Era",
+                        "name": "rankings-bestcoursesinsc-eras-modern-top50",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 50,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Add Course",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_661859740a514",
+                                "label": "Course Selection",
+                                "name": "rankings-bestcoursesinsc-eras-modern-top50-course",
+                                "aria-label": "",
+                                "type": "post_object",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "100.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "post_type": [
+                                    "courses"
+                                ],
+                                "post_status": [
+                                    "publish"
+                                ],
+                                "taxonomy": [
+                                    "era:modern"
+                                ],
+                                "return_format": "",
+                                "multiple": 1,
+                                "allow_null": 1,
+                                "bidirectional": 0,
+                                "ui": 1,
+                                "bidirectional_target": [],
+                                "parent_repeater": "field_661859740a50f"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_66185326376ca",
+                        "label": "Classic Era",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66185145adb91",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_6618597e0a515",
+                        "label": "Top 20 - Classic Era",
+                        "name": "rankings-bestcoursesinsc-eras-classic-top20",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100.00",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "table",
+                        "pagination": 0,
+                        "min": 20,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Add Course",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_6618597e0a51a",
+                                "label": "Course Selection",
+                                "name": "rankings-bestcoursesinsc-eras-classic-top20-course",
+                                "aria-label": "",
+                                "type": "post_object",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "100.00",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "post_type": [
+                                    "courses"
+                                ],
+                                "post_status": [
+                                    "publish"
+                                ],
+                                "taxonomy": [
+                                    "era:classic"
+                                ],
+                                "return_format": "object",
+                                "multiple": 1,
+                                "allow_null": 1,
+                                "bidirectional": 0,
+                                "ui": 1,
+                                "bidirectional_target": [],
+                                "parent_repeater": "field_6618597e0a515"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "rankings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": "Custom fields for Rankings database.",
+        "show_in_rest": 1
+    }
+]

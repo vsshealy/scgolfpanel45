@@ -1,0 +1,77 @@
+
+[
+    {
+        "key": "taxonomy_6615f0e76ec0d",
+        "title": "Ranking Types",
+        "menu_order": 0,
+        "active": true,
+        "taxonomy": "ranking-type",
+        "object_type": [
+            "rankings"
+        ],
+        "advanced_configuration": 1,
+        "import_source": "",
+        "import_date": "",
+        "labels": {
+            "name": "Ranking Types",
+            "singular_name": "Ranking Type",
+            "menu_name": "Ranking Types",
+            "all_items": "All Ranking Types",
+            "edit_item": "Edit Ranking Type",
+            "view_item": "View Ranking Type",
+            "update_item": "Update Ranking Type",
+            "add_new_item": "Add New Ranking Type",
+            "new_item_name": "New Ranking Type Name",
+            "parent_item": "Parent Ranking Type",
+            "parent_item_colon": "Parent Ranking Type:",
+            "search_items": "Search Ranking Types",
+            "most_used": "",
+            "not_found": "No ranking types found",
+            "no_terms": "No ranking types",
+            "name_field_description": "",
+            "slug_field_description": "",
+            "parent_field_description": "",
+            "desc_field_description": "",
+            "filter_by_item": "Filter by ranking type",
+            "items_list_navigation": "Ranking Types list navigation",
+            "items_list": "Ranking Types list",
+            "back_to_items": "← Go to ranking types",
+            "item_link": "Ranking Type Link",
+            "item_link_description": "A link to a ranking type"
+        },
+        "description": "",
+        "capabilities": {
+            "manage_terms": "manage_categories",
+            "edit_terms": "manage_categories",
+            "delete_terms": "manage_categories",
+            "assign_terms": "edit_posts"
+        },
+        "public": 1,
+        "publicly_queryable": 1,
+        "hierarchical": 1,
+        "show_ui": 1,
+        "show_in_menu": 1,
+        "show_in_nav_menus": 1,
+        "show_in_rest": 1,
+        "rest_base": "",
+        "rest_namespace": "wp\/v2",
+        "rest_controller_class": "WP_REST_Terms_Controller",
+        "show_tagcloud": 1,
+        "show_in_quick_edit": 1,
+        "show_admin_column": 1,
+        "rewrite": {
+            "permalink_rewrite": "taxonomy_key",
+            "with_front": "1",
+            "rewrite_hierarchical": "1"
+        },
+        "query_var": "post_type_key",
+        "query_var_name": "",
+        "default_term": {
+            "default_term_enabled": "0"
+        },
+        "sort": 0,
+        "meta_box": "default",
+        "meta_box_cb": "",
+        "meta_box_sanitize_cb": ""
+    }
+]
